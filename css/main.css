@@ -1,0 +1,127 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-image: url("../images/pattern.png");
+  
+}
+#container {
+  height: 360px;
+  max-width: 700px;
+  margin: 120px auto;
+  font-size: 0;
+  border: 6px double white;
+  
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  background-color: #FFE4E1;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+ /* border-radius: 10px 0 0 10px;*/
+}
+
+.time, .date {
+  display: inline;
+  font-size: 70px;
+  text-align: center;
+}
+
+.amPm {
+  display:inline;
+  font-size: 20px;
+}
+.date {
+  margin: 10px;
+  font-size: 35px; 
+}
+
+.left hr {
+  width: 80%;
+  border: 0;
+  height: 3px;
+  background-color: #FFCCCC;
+}
+.dateBox {
+  width:200px;
+	height:200px;
+	position:relative;
+	left:50%;
+	top:50%;
+	margin:-100px 0 0 -100px;
+  /*border: 3px solid #F08080;*/
+  color: #F08080;
+}
+
+.month, .year {
+  font-size: 30px;
+}
+/* Right Side */
+
+
+.right {
+  height: 100%;
+  width: 50%;
+  background-color: #F08080;
+  display: inline-block;
+  vertical-align: top;
+  /*border-radius: 0 10px 10px 0;*/
+}
+
+.weatherBox {
+  width:345px;
+	height:340px;
+	position:relative;
+	left:50%;
+	top:50%;
+	margin:-170px 0 0 -175px;
+  color: #FFE4E1;
+}
+
+.location {
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+}
+.degree {
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+}
+.type {
+  font-size: 30px;
+  padding: 0;
+  margin: 0px 15px;
+  text-align: center;
+}
+
+.type {
+  font-weight: 300;
+}
+.main{
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+}
+p.centerImage {
+   text-align: center;
+   padding: 0;
+   margin: 0;
+}
+
+p.unit {
+  position:relative;
+  bottom: -150px;
+  color:#FFE4E1;
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+p.unit:hover {
+  color: black;
+  cursor:pointer;
+}
